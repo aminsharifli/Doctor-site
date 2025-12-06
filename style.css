@@ -287,8 +287,8 @@
 .video-bg{
     background: url(img/video.png) center/cover;
     position: relative;
-    width: 70%;
-    height: 230px;
+    width: 60%;
+    height: 200px;
     margin: auto;
 }
 .video-bg p{
@@ -397,6 +397,80 @@ th {
   border: 1px solid #00aeef;
   color: #00aeef;
 }
+/* Book an apointment */
+.book-container{
+    padding: 30px 0 0 0;
+}
+.book-form form{
+    margin: auto;
+}
+.book-bg{
+    background: url(img/bg3.jpg) center/cover;
+    position: relative;
+    height: 95vh;
+    margin: auto;
+}
+.book-text{
+    padding: 20px 30px 15px 30px;
+    text-align: center;
+}
+.book-an-apointment{
+    padding: 50px 30px 20px 0;    
+}
+.book-an-apointment h2{
+    font: bold 1.8em Arial;
+    padding: 0px 0 15px 0;
+    color: #ffffff;
+}
+.book-an-apointment hr{
+    border: none;
+    border-top: 4px solid #00aeef;
+    width: 70px;
+    margin: auto;
+}
+.book-form input , select , textarea {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  border: none;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 0 30px;
+  font-style: italic;
+  margin-bottom: 35px;
+}
+.book-form input{
+    height: 50px;
+    display: inline-block;
+}
+.ook-form input,select {
+  height: 50px;
+}
+
+.book-form textarea {
+  padding: 30px;
+}
+.booking-now{
+    text-align: center;
+}
+.booking-now button {
+  background-color: #00aeef;
+  color: white;
+  padding: 16px;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.5s ease;
+  margin-top: 10px;
+}
+
+.booking-now button:hover {
+  background-color: transparent;
+  border: 1px solid #00aeef;
+  color: #00aeef;
+}
+
 @media only screen and (min-width: 768px){
     .top-phone-main{
         display: none;
@@ -596,4 +670,34 @@ th {
     padding: 0 120px 15px 120px;
     text-align: center;
 }
+/* Book an apointment */
+.book-form input , select {
+    width: 540px;
+}
+
+.book-form textarea{
+   width: 1088px;
+}
+.book-form{
+    text-align: center;
+}
+.booking-now button{
+    margin-top: 50px;
+}
+.book-bg{height: 85vh;}
+
+}
+@media only screen and (max-width: 1088px){
+.book-form textarea{
+   width: 540px;
+}
+.book-bg{height: 110vh;}
+.booking-now button{
+    margin-top: 20px;
+}
+}
+@media only screen and (max-width: 768px){
+    .book-form textarea{
+      width: 100%;
+    }
 }
